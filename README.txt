@@ -1,21 +1,12 @@
-AAS-02-2026 SCHOOL WEBSITE
+AAS-02-2026 FINAL VERSION
 
-This is the first working prototype of the AAS-02-2026 student portal.
+This version includes a mobile-friendly portal, PDF links, search, announcements, assignments, timetable and a simple browser-only admin area.
 
-HOW TO OPEN:
-1. Extract the ZIP file.
-2. Open index.html in Chrome or another web browser.
-3. Use the Admin Area to add announcements, notes and assignments.
-4. Changes are saved in the browser's local storage.
+ADDING PDFs:
+1. In GitHub open Code -> Add file -> Upload files.
+2. Upload PDFs into the notes folder.
+3. Use filenames such as Managing-the-Boss.pdf and Petty-Cash.pdf.
+4. The Notes section already contains links to those names.
 
 IMPORTANT:
-This prototype is not yet a true multi-user online system. If students on different phones/computers need to see the same information and you need secure administrator login, the next version should use a hosted backend/database and authentication.
-
-Suggested next version:
-- Admin login for you
-- Student registration/login
-- Shared online database
-- PDF/file uploads
-- Assignment submissions
-- Student management
-- Secure hosting/domain
+GitHub Pages is static. The Admin Area is NOT a secure shared account and browser changes are not shared between students. For a real school system, the next upgrade should use secure authentication, a shared database and controlled file uploads.
